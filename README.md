@@ -3,13 +3,13 @@
 ## Install
 
 ```bash
-npm i react-ga4
+npm i react-analytics-ga4
 ```
 
 ## Usage
 
 ```js
-import ReactGA from "react-ga4";
+import ReactGA from "react-analytics-ga4";
 
 ReactGA.initialize("your GA measurement id");
 ```
@@ -98,7 +98,7 @@ This method signature are NOT for `UA-XXX`
 ### Extending
 
 ```js
-import { ReactGAImplementation } from "react-ga4";
+import { ReactGAImplementation } from "react-analytics-ga4";
 
 class MyCustomOverriddenClass extends ReactGAImplementation {}
 

@@ -64,7 +64,7 @@ export class GA4 {
         gtagOptions?: any;
     }) => void;
     _currentMeasurementId: string;
-    set: (fieldsObject: any) => void;
+    set: (fieldsObject: any, args?: any) => void;
     _gaCommandSendEvent: (eventCategory: any, eventAction: any, eventLabel: any, eventValue: any, fieldsObject: any) => void;
     _gaCommandSendEventParameters: (...args: any[]) => void;
     _gaCommandSendTiming: (timingCategory: any, timingVar: any, timingValue: any, timingLabel: any) => void;
